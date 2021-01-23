@@ -35,39 +35,14 @@
   <ItemGroup>
     <Folder Include="boilermakeproject\" />
     <Folder Include="boilermakeproject\static\" />
-    <Folder Include="boilermakeproject\static\content\" />
-    <Folder Include="boilermakeproject\static\fonts\" />
-    <Folder Include="boilermakeproject\static\scripts\" />
     <Folder Include="boilermakeproject\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="boilermakeproject\static\bannerwide.png" />
+    <Content Include="boilermakeproject\static\banner.png" />
     <Content Include="requirements.txt" />
-    <Content Include="boilermakeproject\static\content\bootstrap.css" />
-    <Content Include="boilermakeproject\static\content\bootstrap.min.css" />
-    <Content Include="boilermakeproject\static\content\site.css" />
-    <Content Include="boilermakeproject\static\fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="boilermakeproject\static\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="boilermakeproject\static\fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="boilermakeproject\static\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="boilermakeproject\static\scripts\bootstrap.js" />
-    <Content Include="boilermakeproject\static\scripts\bootstrap.min.js" />
-    <Content Include="boilermakeproject\static\scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="boilermakeproject\static\scripts\jquery-1.10.2.js" />
-    <Content Include="boilermakeproject\static\scripts\jquery-1.10.2.min.js" />
-    <Content Include="boilermakeproject\static\scripts\jquery-1.10.2.min.map" />
-    <Content Include="boilermakeproject\static\scripts\jquery.validate-vsdoc.js" />
-    <Content Include="boilermakeproject\static\scripts\jquery.validate.js" />
-    <Content Include="boilermakeproject\static\scripts\jquery.validate.min.js" />
-    <Content Include="boilermakeproject\static\scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="boilermakeproject\static\scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="boilermakeproject\static\scripts\modernizr-2.6.2.js" />
-    <Content Include="boilermakeproject\static\scripts\respond.js" />
-    <Content Include="boilermakeproject\static\scripts\respond.min.js" />
-    <Content Include="boilermakeproject\static\scripts\_references.js" />
-    <Content Include="boilermakeproject\templates\about.html" />
-    <Content Include="boilermakeproject\templates\contact.html" />
+    <Content Include="boilermakeproject\static\site.css" />
     <Content Include="boilermakeproject\templates\index.html" />
-    <Content Include="boilermakeproject\templates\layout.html" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 

@@ -1,0 +1,75 @@
+﻿/*
+    Darker: 3c403d
+    Dark: 39603d
+    Mid: A3BCB6
+    Lightest: Daded4
+*/
+
+body {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    background-color: #Daded4
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/*css for navigation bar*/
+/* Add a black background color to the top navigation */
+.topbar {
+    background-color: #3C403D;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    min-height: 0;
+}
+
+/* Style the links inside the navigation bar */
+    .topbar a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+/* Change the color of links on hover */
+.topbar a:hover {
+    background-color: #A3BCB6;
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topbar a.active {
+    background-color: #A3BCB6;
+    color: white;
+}​
+
+img {
+    align-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+header {
+    background-color: #A3BCB6;
+    /* padding: 20px; */
+    height: 350px;
+    width: 100%;
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+  
+}
