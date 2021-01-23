@@ -1,8 +1,9 @@
 ﻿/*
-    Darker: 3c403d
-    Dark: 39603d
-    Mid: A3BCB6
-    Lightest: Daded4
+    Darker: 3c403d 60, 64, 61
+    Dark: 39603d 57, 96, 61
+    purple: A57880 165, 120, 128
+    Mid: A3BCB6 163, 188, 182
+    Lightest: Daded4 218, 222, 212
 */
 
 body {
@@ -62,14 +63,46 @@ img {
 }
 
 header {
-    background-color: #A3BCB6;
-    /* padding: 20px; */
-    height: 350px;
+    background-color: #39603d;
+    padding: 40px;
+    height: 400px;
     width: 100%;
     text-align: left;
+
 }
 
 h2 {
     font-size: 24px;
   
 }
+
+
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.columnC1 {
+    flex: 50%;
+    background-color: #A3BCB6;
+    text-align: justify;
+    width: 400px;
+    height: 400px;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.columnC2 {
+    flex: 50%;
+    background-color: #A57880;
+    text-align: justify;
+    width: 400px;
+    height: 400px;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
