@@ -7,7 +7,7 @@
 */
 
 body {
-    padding-top: 50px;
+    padding-top: 0px;
     padding-bottom: 0px;
     background-color: #Daded4
 }
@@ -90,8 +90,7 @@ h2 {
     flex: 50%;
     background-color: #A3BCB6;
     text-align: justify;
-    width: 400px;
-    height: 400px;
+
     padding: 70px;
     box-sizing: border-box;
 }
@@ -100,9 +99,46 @@ h2 {
     flex: 50%;
     background-color: #A57880;
     text-align: justify;
-    width: 400px;
-    height: 400px;
+
     padding: 70px;
     box-sizing: border-box;
 }
 
+.homeimg {
+    max-height: 100%;
+    flex: 50%;
+}
+
+
+/* Gallery Challenge*/
+
+
+.galwall {
+    display: flex;
+    width: 1400px;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+figure {
+    width: 400px;
+    margin: 8px 0;
+    border: 1px solid #777;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #3C403D;
+    color:white;
+    font-size: 24px;
+}
+
+figure img {
+    width: 100%;
+}
+
+figure figcaption {
+    text-align: center;
+    padding: 8px 4px;
+    color: white;
+    font-size: 18px; 
+}
