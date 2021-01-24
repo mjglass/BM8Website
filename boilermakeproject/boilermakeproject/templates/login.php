@@ -59,13 +59,14 @@
                         
                     </div>
                             <div class="d-flex justify-content-center mt-3 login_container">
-                                <button type="button" name="button" id="login" class="btn login_btn">Login</button>
+                                <input type="button" value="Login" class="btn login_btn" id="btnHome" 
+                            onClick="document.location.href='/profile'" />
                             </div>
                         </form>
 
                     <div class="mt-4">
                         <div class="d-flex justify-content-center links">
-                            No account? No problem!  <a href="registration.php" class="ml-2"> Sign Up</a>
+                            No account? No problem!  <a href="/register" class="ml-2"> Sign Up</a>
                         </div>
                         <div class="d-flex justify-content-center">
                             <a href="#">Forgot password</a>

@@ -38,11 +38,13 @@
     <Folder Include="boilermakeproject\templates\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="boilermakeproject\config.php" />
-    <Content Include="boilermakeproject\index.php" />
-    <Content Include="boilermakeproject\jslogin.php" />
+    <Content Include="boilermakeproject\templates\cal.css" />
+    <Content Include="boilermakeproject\templates\calendar.html" />
+    <Content Include="boilermakeproject\templates\config.php" />
+    <Content Include="boilermakeproject\templates\index.php" />
+    <Content Include="boilermakeproject\templates\jslogin.php" />
     <Content Include="boilermakeproject\templates\login.php" />
-    <Content Include="boilermakeproject\process.php" />
+    <Content Include="boilermakeproject\templates\process.php" />
     <Content Include="boilermakeproject\templates\registration.php" />
     <Content Include="boilermakeproject\static\about1.png" />
     <Content Include="boilermakeproject\static\about2.png" />
@@ -71,6 +73,7 @@
     <Content Include="boilermakeproject\templates\feed.html" />
     <Content Include="boilermakeproject\templates\logout.html" />
     <Content Include="boilermakeproject\templates\profile.html" />
+    <Content Include="boilermakeproject\templates\script.js" />
     <Content Include="requirements.txt" />
     <Content Include="boilermakeproject\static\site.css" />
     <Content Include="boilermakeproject\templates\index.html" />

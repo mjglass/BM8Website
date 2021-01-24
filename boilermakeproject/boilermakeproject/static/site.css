@@ -72,10 +72,11 @@ header {
 }
 
 h2 {
-    font-size: 24px;
-  
+    font-size: 40px;
 }
-
+p{ 
+    font-size: 22px;
+}
 
 
 .row {

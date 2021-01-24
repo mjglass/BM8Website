@@ -76,6 +76,6 @@ def logout():
 def challengelist():
     """Renders the about page."""
     return render_template(
-        'challangelist.html',
-        title='Challebges'
+        'challengelist.html',
+        title='My actions'
     )

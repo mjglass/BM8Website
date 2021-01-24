@@ -58,3 +58,7 @@ body,html{
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before{
     background-color: #39603D !important;
 }
+
+.form_cont{
+    border: 5px, solid, black;
+}
